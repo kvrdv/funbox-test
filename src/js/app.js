@@ -20,18 +20,18 @@ const bannerTextlineArray = [
 ];
 
 
-for (let i = 0; i < banner.length; i++) {
+for (let i = 0; i < banner.length; i += 1) {
   // Меняем надпись и цвет первой строки баннера:
   banner[i].addEventListener('mouseleave', () => {
     if (banner[i].classList.contains('banner-selected') === true) {
-      bannerTextline1[i].innerHTML = bannerTextlineArray[1];
+      bannerTextline1[i].innerHTML = bannerTextlineArray[1]; //eslint-disable-line
       bannerTextline1[i].style.color = '#d91667';
     }
   });
 
   banner[i].addEventListener('mouseenter', () => {
     if (banner[i].classList.contains('banner-selected') === true) {
-      bannerTextline1[i].innerHTML = bannerTextlineArray[0];
+      bannerTextline1[i].innerHTML = bannerTextlineArray[0]; //eslint-disable-line
       bannerTextline1[i].style.color = ' #666666';
     }
   });
@@ -50,8 +50,8 @@ for (let i = 0; i < banner.length; i++) {
 }
 
 // Подсвечиваем выбор красным при нажатии на слово купи:
-for (let i = 0; i < link.length; i++) {
-  link[i].addEventListener('click', (e) => {
+for (let i = 0; i < link.length; i += 1) {
+  link[i].addEventListener('click', () => {
     banner[i].classList.toggle('banner-selected');
     circle[i].classList.toggle('circle-selected');
 
