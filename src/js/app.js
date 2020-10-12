@@ -19,7 +19,6 @@ const bannerTextlineArray = [
   'Котэ не одобряет?',
 ];
 
-
 for (let i = 0; i < banner.length; i += 1) {
   // Меняем надпись и цвет первой строки баннера:
   banner[i].addEventListener('mouseleave', () => {
