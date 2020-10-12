@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/oao1lmgk23h04aqy/branch/main?svg=true)](https://ci.appveyor.com/project/kvrdv/funbox-test/branch/main)
+
 # FunBox
 ## Квалификационные задания для разработчиков HTML/CSS/JS
 
