@@ -4,9 +4,9 @@
 }
 
 body {  
-  font-family: Exo Thin;
-  background-color: #000000;
-  background-image: url("../src/images/background-body.png"); 
+  font-family: Exo Thin;  
+  background-image: url("../src/images/background-body.png");  
+  /* position: relative;  */
 }
 
 body::after {  
@@ -17,17 +17,18 @@ body::after {
     rgba(0, 0, 0, 5e-5) 49.88%,
     rgba(0, 0, 0, 0.5) 100%
   );
-  position: absolute;
+  position: fixed;
   z-index: -2;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: 0.5;
+  height: 100%;
 }
 
 .body-wrapper {
-  margin-top: calc(50vh - (593px / 2));
+  margin-top: calc(50vh - (593px / 2));  
 }
 
 .hidden {
