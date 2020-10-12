@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Exo Thin";
+  src: url("../src/fonts/Exo2.0-Thin.otf") format("opentype");
+}
+
+body {  
+  font-family: Exo Thin;
+  background-color: #000000;
+  background-image: url("../src/images/background-body.png"); 
+}
+
+body::after {  
+  content: "";
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 5e-5) 49.88%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.body-wrapper {
+  margin-top: calc(50vh - (593px / 2));
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.header {
+  margin: 36px 0 24px 0;
+}
+
+h1 {
+  font-family: Exo Thin;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px #000000;
+}
+
+h2 {
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+h3 {
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+h4 {
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+}
+
+h5 {
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #666666;
+}
+
+.banners {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin: auto;
+}
+
+.banner-wrapper {
+  margin: auto;
+}
+
+.banner {
+  padding: 21px 0 0 51px;
+  width: 320px;
+  height: 480px;
+  background-image: url("../src/images/background-cat-blue-border.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner-selected {
+  background-image: url("../src/images/background-cat-red-border.png");
+}
+
+.banner-hidden {
+  background-image: url("../src/images/background-cat-grey-border.png");
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.banner-textline-hidden {
+  color: #b3b3b3;
+}
+
+.banner-textline-4 {
+  margin-top: 15px;
+}
+
+.circle {
+  fill: #2ea8e6;
+}
+
+.circle-selected {
+  fill: #d91667;
+}
+
+.circle-hidden {
+  fill: #b3b3b3;
+}
+
+.weight {
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 22px;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.weight-count {
+  font-size: 42px;
+  position: absolute;
+  bottom: 20px;
+  right: 29px;
+}
+
+.weight-count-doubled {
+  right: 11px;
+}
+
+.weight-unit {
+  font-size: 21px;
+  position: absolute;
+  bottom: -7px;
+  right: 29px;
+}
+
+.banner-footer {
+  display: flex;
+  justify-content: center;
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: 14px 0 0 0;
+}
+
+.banner-footer-text-hidden {
+  color: #ffff66;
+}
+
+.banner-footer-text-link {
+  margin: 0 0 0 3px;
+  color: #1698d9;
+  text-decoration: dashed underline;
+}
+
+.dot-is-not-a-link {
+  color: #1698d9;
+}
