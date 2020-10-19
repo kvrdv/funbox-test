@@ -1,11 +1,15 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/oao1lmgk23h04aqy/branch/main?svg=true)](https://ci.appveyor.com/project/kvrdv/funbox-test/branch/main)
+[![Build status](https://ci.appveyor.com/api/projects/status/w0baj2x9oxxjeb5c/branch/main?svg=true)](https://ci.appveyor.com/project/kvrdv/funbox-test/branch/main)
+
+[GitHub Pages](https://kvrdv.github.io/funbox-test-host/)
 
 # FunBox
+
 ## Квалификационные задания для разработчиков HTML/CSS/JS
 
 [Скачать задание](https://dl.funbox.ru/qt-html-css-js.zip)
 
 ## Установка:
+
 ```shell
 npm init
 npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env
@@ -13,14 +17,16 @@ npm install core-js@3
 ```
 
 ## Требования:
-* Браузеры: Chrome, Firefox, Safari, IE11;
-* Стандарты: на ваше усмотрение;
-* Структура проекта: на ваше усмотрение;
-* Инструменты: любой сборщик на платформе Node.js;
-* Библиотеки: приветствуется React, но можно и без него;
-* Результат: ссылка на страницу, которая корректно отображается на любых современных десктопных компьютерах, смартфонах и планшетах, а также git-репозиторий с исходниками верстки.
+
+- Браузеры: Chrome, Firefox, Safari, IE11;
+- Стандарты: на ваше усмотрение;
+- Структура проекта: на ваше усмотрение;
+- Инструменты: любой сборщик на платформе Node.js;
+- Библиотеки: приветствуется React, но можно и без него;
+- Результат: ссылка на страницу, которая корректно отображается на любых современных десктопных компьютерах, смартфонах и планшетах, а также git-репозиторий с исходниками верстки.
 
 ## Описание:
+
 1. Фон занимает всю площадь экрана, блок находится по центру вертикально и горизонтально.
 2. На планшетах упаковки располагаются треугольником, на смартфонах друг под другом.
 3. Информация о продукте может меняться.
