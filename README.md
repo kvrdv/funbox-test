@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/w0baj2x9oxxjeb5c/branch/main?svg=true)](https://ci.appveyor.com/project/kvrdv/funbox-test/branch/main)
 
-[GitHub Pages](https://kvrdv.github.io/funbox-test-host/)
+[GitHub Pages](https://kvrdv.github.io/funbox-test/)
 
 # FunBox
 
