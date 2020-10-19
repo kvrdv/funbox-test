@@ -8,14 +8,6 @@
 
 [Скачать задание](https://dl.funbox.ru/qt-html-css-js.zip)
 
-## Установка:
-
-```shell
-npm init
-npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env
-npm install core-js@3
-```
-
 ## Требования:
 
 - Браузеры: Chrome, Firefox, Safari, IE11;
